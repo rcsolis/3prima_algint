@@ -1,0 +1,8 @@
+@layer components {
+    .btn-primary-gradient{
+        @apply bg-gradient-to-r from-primary to-primary-dark rounded-full;
+    }
+    .bg-primary-gradient{
+        @apply bg-gradient-to-r from-primary to-primary-dark;
+    }
+}
