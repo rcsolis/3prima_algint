@@ -30,7 +30,7 @@ const HomePage = () => {
 					<ImageCardComponent imageName={Image2} imageName2={Image2s2x}>
 						<button
 							className={"btn btn-block btn-primary btn-primary-gradient"}
-							onClick={() => history.push("/")}>
+							onClick={() => history.push("/urticaria-angioedema")}>
 							Urticaria: únicamente angioedema
 						</button>
 					</ImageCardComponent>

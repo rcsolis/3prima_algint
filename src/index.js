@@ -46,6 +46,13 @@ import UrticariaCronicaCuestionariosPage from "./pages/urticariaCSangioedema/cro
 import UrticariaCronicaEspontaneaPage from "./pages/urticariaCSangioedema/cronica/espontanea";
 import UrticariaCronicaEspontaneaAbordajePage from "./pages/urticariaCSangioedema/cronica/espontaneaabordaje";
 import UrticariaCronicaEspontaneaTratamientoPage from "./pages/urticariaCSangioedema/cronica/espontaneatratamiento";
+import UrticariaAngioedemaPage from "./pages/urticariaangioedema";
+import UrticariaAngioedemaAbordajePage from "./pages/urticariaangioedema/abordaje";
+import UrticariaAngioedemaAbordajeAntihistaminicosPage from "./pages/urticariaangioedema/abordaje/antihistaminicos";
+import UrticariaAngioedemaAbordajeSistemicoPage from "./pages/urticariaangioedema/abordaje/sistemico";
+import UrticariaAngioedemaDiagnosticoPage from "./pages/urticariaangioedema/diagnostico";
+import UrticariaAngioedemaTratamientoPage from "./pages/urticariaangioedema/tratamiento";
+import UrticariaAngioedemaCuestionariosPage from "./pages/urticariaangioedema/cuestionarios";
 
 ReactDOM.render(
 	<React.StrictMode>
@@ -171,7 +178,27 @@ ReactDOM.render(
 				<Route exact path={"/urticaria-cs-angioedema/cronica/espontanea/abordaje/tratamiento"}>
 					<UrticariaCronicaEspontaneaTratamientoPage/>
 				</Route>
-
+				<Route exact path={"/urticaria-angioedema"}>
+					<UrticariaAngioedemaPage />
+				</Route>
+				<Route exact path={"/urticaria-angioedema/abordaje"}>
+					<UrticariaAngioedemaAbordajePage />
+				</Route>
+				<Route exact path={"/urticaria-angioedema/abordaje/antihistaminicos"}>
+					<UrticariaAngioedemaAbordajeAntihistaminicosPage />
+				</Route>
+				<Route exact path={"/urticaria-angioedema/abordaje/sistemico"}>
+					<UrticariaAngioedemaAbordajeSistemicoPage/>
+				</Route>
+				<Route exact path={"/urticaria-angioedema/diagnostico"}>
+					<UrticariaAngioedemaDiagnosticoPage/>
+				</Route>
+				<Route exact path={"/urticaria-angioedema/tratamiento"}>
+					<UrticariaAngioedemaTratamientoPage/>
+				</Route>
+				<Route exact path={"/urticaria-angioedema/cuestionarios"}>
+					<UrticariaAngioedemaCuestionariosPage/>
+				</Route>
 				<Route exact path={"/"}>
 					<Splash />
 				</Route>
