@@ -1,6 +1,5 @@
 import React from "react";
 import TextBreadcumsComponent from "../../components/navigation/TextBreadcumsComponent";
-import SimpleLayout from "../../components/layouts/SimpleLayout";
 import ComplexLayout from "../../components/layouts/ComplexLayout";
 import { useHistory } from "react-router-dom";
 import TextCardComponent from "../../components/cards/TextCardComponent";

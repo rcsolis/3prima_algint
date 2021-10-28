@@ -30,6 +30,22 @@ import UrticariaConAlergiaAlimentosAbordajePage from "./pages/urticariaCSangioed
 import UrticariaConAlergiaMedicamentosPage from "./pages/urticariaCSangioedema/aguda/conalergiamedicamentos";
 import UrticariaConAlergiaMedicamentosAbordajePage
 	from "./pages/urticariaCSangioedema/aguda/conalergiamedicamentosabordaje";
+import UrticariaCronicaInduciblePage from "./pages/urticariaCSangioedema/cronica/inducible";
+import UrticariaCronicaDiagnosticosPage from "./pages/urticariaCSangioedema/cronica/diagnosticos";
+import UrticariaCronicaDiagnosticosAutoinflamatoriosPage from "./pages/modals/cronica/autoinflamatorios";
+import UrticariaCronicaDiagnosticosVasculiticaPage from "./pages/modals/cronica/vasculitica";
+import UrticariaCronicaDiagnosticosSistemicaPage from "./pages/modals/cronica/sistemica";
+import UrticariaCronicaDiagnosticosCebadaPage from "./pages/modals/cronica/cebada";
+import UrticariaCronicaDiagnosticosSchnitzlerPage from "./pages/modals/cronica/schnitzler";
+import UrticariaCronicaDiagnosticosGleichPage from "./pages/modals/cronica/gleich";
+import UrticariaCronicaDiagnosticosWellPage from "./pages/modals/cronica/well";
+import UrticariaCronicaDiagnosticosStillPage from "./pages/modals/cronica/still";
+import UrticariaCronicaDiagnosticosBulosoPage from "./pages/modals/cronica/buloso";
+import UrticariaCronicaInducibleAbordajePage from "./pages/urticariaCSangioedema/cronica/inducibleabordaje";
+import UrticariaCronicaCuestionariosPage from "./pages/urticariaCSangioedema/cronica/cuestionarios";
+import UrticariaCronicaEspontaneaPage from "./pages/urticariaCSangioedema/cronica/espontanea";
+import UrticariaCronicaEspontaneaAbordajePage from "./pages/urticariaCSangioedema/cronica/espontaneaabordaje";
+import UrticariaCronicaEspontaneaTratamientoPage from "./pages/urticariaCSangioedema/cronica/espontaneatratamiento";
 
 ReactDOM.render(
 	<React.StrictMode>
@@ -107,6 +123,55 @@ ReactDOM.render(
 				<Route exact path={"/urticaria-cs-angioedema/cronica"}>
 					<UrticariaCronicaPage/>
 				</Route>
+				<Route exact path={"/urticaria-cs-angioedema/cronica/diagnosticos"}>
+					<UrticariaCronicaDiagnosticosPage/>
+				</Route>
+				<Route exact path={"/urticaria-cs-angioedema/cronica/diagnosticos/modal/autoinflamatorios"}>
+					<UrticariaCronicaDiagnosticosAutoinflamatoriosPage />
+				</Route>
+				<Route exact path={"/urticaria-cs-angioedema/cronica/diagnosticos/modal/vasculitica"}>
+					<UrticariaCronicaDiagnosticosVasculiticaPage />
+				</Route>
+				<Route exact path={"/urticaria-cs-angioedema/cronica/diagnosticos/modal/sistemica"}>
+					<UrticariaCronicaDiagnosticosSistemicaPage/>
+				</Route>
+				<Route exact path={"/urticaria-cs-angioedema/cronica/diagnosticos/modal/cebada"}>
+					<UrticariaCronicaDiagnosticosCebadaPage/>
+				</Route>
+				<Route exact path={"/urticaria-cs-angioedema/cronica/diagnosticos/modal/schnitzler"}>
+					<UrticariaCronicaDiagnosticosSchnitzlerPage/>
+				</Route>
+				<Route exact path={"/urticaria-cs-angioedema/cronica/diagnosticos/modal/gleich"}>
+					<UrticariaCronicaDiagnosticosGleichPage/>
+				</Route>
+				<Route exact path={"/urticaria-cs-angioedema/cronica/diagnosticos/modal/well"}>
+					<UrticariaCronicaDiagnosticosWellPage/>
+				</Route>
+				<Route exact path={"/urticaria-cs-angioedema/cronica/diagnosticos/modal/buloso"}>
+					<UrticariaCronicaDiagnosticosBulosoPage/>
+				</Route>
+				<Route exact path={"/urticaria-cs-angioedema/cronica/diagnosticos/modal/still"}>
+					<UrticariaCronicaDiagnosticosStillPage/>
+				</Route>
+				<Route exact path={"/urticaria-cs-angioedema/cronica/inducible"}>
+					<UrticariaCronicaInduciblePage/>
+				</Route>
+				<Route exact path={"/urticaria-cs-angioedema/cronica/inducible/abordaje"}>
+					<UrticariaCronicaInducibleAbordajePage/>
+				</Route>
+				<Route exact path={"/urticaria-cs-angioedema/cronica/cuestionarios"}>
+					<UrticariaCronicaCuestionariosPage/>
+				</Route>
+				<Route exact path={"/urticaria-cs-angioedema/cronica/espontanea"}>
+					<UrticariaCronicaEspontaneaPage/>
+				</Route>
+				<Route exact path={"/urticaria-cs-angioedema/cronica/espontanea/abordaje"}>
+					<UrticariaCronicaEspontaneaAbordajePage/>
+				</Route>
+				<Route exact path={"/urticaria-cs-angioedema/cronica/espontanea/abordaje/tratamiento"}>
+					<UrticariaCronicaEspontaneaTratamientoPage/>
+				</Route>
+
 				<Route exact path={"/"}>
 					<Splash />
 				</Route>

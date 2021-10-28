@@ -22,7 +22,7 @@ function UrticariaAgudaPage(){
         e.preventDefault();
         history.push("/urticaria-cs-angioedema/aguda/modal");
     };
-    const actions = <a className="text-accent" onClick={(e)=>openCriterios(e)}>Ver criterios de anafilaxia</a>;
+    const actions = <a href="#" className="text-accent" onClick={(e)=>openCriterios(e)}>Ver criterios de anafilaxia</a>;
 
     return <ComplexLayout steps={pageSteps}>
         <div className={"w-full"}>
