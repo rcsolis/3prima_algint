@@ -15,8 +15,8 @@ const Splash = () => {
 	}, []);
 	return (
 		<div>
-			<div className={"p-20"}>
-				<img src={logo} alt={"Algoritmo Interactivo"} />
+			<div className={"mx-auto p-20"}>
+				<img src={logo} className={"mx-auto"} alt={"Algoritmo Interactivo"} />
 			</div>
 			<div className={"mx-auto p-5"}>
 				<Link to={"/welcome"} className={"btn btn-block btn-primary btn-primary-gradient"}>
