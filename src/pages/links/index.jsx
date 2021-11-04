@@ -35,6 +35,14 @@ function LinksPage(){
                         <a href={"https://icd.who.int/browse11/l-m/es#/http://id.who.int/icd/entity/795969334"} target={"_blank"}
                            className={"text-secondary"}>CIE 11 Angioedema</a>
                     </li>
+                    <li>
+                        <a href={"https://www.urticaria-registry.com/"} target={"_blank"}
+                           className={"text-secondary"}>urticaria-registry.com</a>
+                    </li>
+                    <li>
+                        <a href={"https://urticariaguideline.org/"} target={"_blank"}
+                           className={"text-secondary"}>urticariaguideline.org</a>
+                    </li>
                 </ol>
             </div>
         </div>

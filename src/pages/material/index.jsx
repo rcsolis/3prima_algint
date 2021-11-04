@@ -19,9 +19,9 @@ function MaterialPage(){
                             UCT. Urticarial Control Test
                     </div>
                     <div className={"text-primary-dark text-base sm:text-xl"}>
-                        <a href={""} target={"_blank"}>
+                        <a href={"/files/UCT.pdf"} target={"_blank"} download>
                             Descargar
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 float-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                             </svg>
                         </a>
@@ -38,9 +38,9 @@ function MaterialPage(){
                         UAS7. Urticarial Activity Score
                     </div>
                     <div className={"text-primary-dark text-base sm:text-xl"}>
-                        <a href={""} target={"_blank"}>
+                        <a href={"/files/UAS7.pdf"} target={"_blank"} download>
                             Descargar
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 float-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                             </svg>
                         </a>
@@ -57,9 +57,9 @@ function MaterialPage(){
                         CU-Q2oL. Chronic Urticaria Quatlity of Life Questionnaire
                     </div>
                     <div className={"text-primary-dark text-base sm:text-xl"}>
-                        <a href={""} target={"_blank"}>
+                        <a href={"/files/CU-Q2oL.pdf"} target={"_blank"} download>
                             Descargar
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 float-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                             </svg>
                         </a>
@@ -76,9 +76,9 @@ function MaterialPage(){
                         AECT. The Angioedema Control Test
                     </div>
                     <div className={"text-primary-dark text-base sm:text-xl"}>
-                        <a href={""} target={"_blank"}>
+                        <a href={"/files/AECT.pdf"} target={"_blank"} download>
                             Descargar
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 float-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                             </svg>
                         </a>
@@ -95,9 +95,9 @@ function MaterialPage(){
                         AAS. Angioedema Activity Score
                     </div>
                     <div className={"text-primary-dark text-base sm:text-xl"}>
-                        <a href={""} target={"_blank"}>
+                        <a href={"/files/AAS.pdf"} target={"_blank"} download>
                             Descargar
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 float-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                             </svg>
                         </a>
@@ -114,9 +114,9 @@ function MaterialPage(){
                         AE-QoL.  Angioedema Quality of Life Questionnaire
                     </div>
                     <div className={"text-primary-dark text-base sm:text-xl"}>
-                        <a href={""} target={"_blank"}>
+                        <a href={"/files/AE-QoL.pdf"} target={"_blank"} download>
                             Descargar
-                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 float-left" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
                             </svg>
                         </a>

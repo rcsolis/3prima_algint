@@ -10,3 +10,6 @@ body{
     height: 100vh;
     color: #707070;
 }
+#root{
+    background: inherit;
+}

@@ -38,33 +38,30 @@ function UrticariaAngioedemaCuestionariosPage(){
                     <TextCardComponent title={"AECT"}
                                        text={"The Angioedema Control Test"}
                                        titleClass={"text-yellow-400 text-center"}>
-                        <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
-                            onClick={() => history.push("/urticaria-angioedema/cuestionarios")}>
+                        <a className={"btn btn-block btn-primary btn-primary-gradient"}
+                           href={"/files/AECT.pdf"} target="_blank" download>
                             Descargar
-                        </button>
+                        </a>
                     </TextCardComponent>
                 </div>
                 <div>
                     <TextCardComponent title={"AAS"}
                                        text={"Angioedema Activity Score"}
                                        titleClass={"text-yellow-400 text-center"}>
-                        <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
-                            onClick={() => history.push("/urticaria-angioedema/cuestionarios")}>
+                        <a className={"btn btn-block btn-primary btn-primary-gradient"}
+                        href={"/files/AAS.pdf"} target="_blank" download>
                             Descargar
-                        </button>
+                        </a>
                     </TextCardComponent>
                 </div>
                 <div>
                     <TextCardComponent title={"AE-QoL"}
                                        text={"Angioedema Quality of Life Questionnaire "}
                                        titleClass={"text-yellow-400 text-center"}>
-                        <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
-                            onClick={() => history.push("/urticaria-angioedema/cuestionarios")}>
+                        <a className={"btn btn-block btn-primary btn-primary-gradient"}
+                           href={"/files/AE-QoL.pdf"} target="_blank" download>
                             Descargar
-                        </button>
+                        </a>
                     </TextCardComponent>
                 </div>
 

@@ -8,7 +8,7 @@ const Splash = () => {
 	useEffect(() => {
 		const timeId = setTimeout(() => {
 			history.push("/welcome");
-		}, 500000);
+		}, 100000);
 		return () => {
 			clearTimeout(timeId);
 		};

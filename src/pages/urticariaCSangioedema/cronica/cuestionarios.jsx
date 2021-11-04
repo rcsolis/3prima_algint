@@ -39,33 +39,30 @@ function UrticariaCronicaCuestionariosPage(){
                     <TextCardComponent title={"UCT"}
                                        text={"Urticaria Control Test"}
                                        titleClass={"text-secondary text-center"}>
-                        <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
-                            onClick={() => history.push("/urticaria-cs-angioedema/cronica/cuestionarios")}>
+                        <a className={"btn btn-block btn-primary btn-primary-gradient"}
+                           href={"/files/UCT.pdf"} target="_blank" download>
                             Descargar
-                        </button>
+                        </a>
                     </TextCardComponent>
                 </div>
                 <div>
                     <TextCardComponent title={"UAS7"}
                                        text={"Urticaria Activity Score"}
                                        titleClass={"text-secondary text-center"}>
-                        <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
-                            onClick={() => history.push("/urticaria-cs-angioedema/cronica/cuestionarios")}>
+                        <a className={"btn btn-block btn-primary btn-primary-gradient"}
+                           href={"/files/UAS7.pdf"} target="_blank" download>
                             Descargar
-                        </button>
+                        </a>
                     </TextCardComponent>
                 </div>
                 <div>
                     <TextCardComponent title={"CU-Q2oL"}
                                        text={"Chronic Urticaria Quality of Life Questionnaire"}
                                        titleClass={"text-secondary text-center"}>
-                        <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
-                            onClick={() => history.push("/urticaria-cs-angioedema/cronica/cuestionarios")}>
+                        <a className={"btn btn-block btn-primary btn-primary-gradient"}
+                           href={"/files/CU-Q2oL.pdf"} target="_blank" download>
                             Descargar
-                        </button>
+                        </a>
                     </TextCardComponent>
                 </div>
 
