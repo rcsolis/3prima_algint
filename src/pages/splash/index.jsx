@@ -8,15 +8,15 @@ const Splash = () => {
 	useEffect(() => {
 		const timeId = setTimeout(() => {
 			history.push("/welcome");
-		}, 100000);
+		}, 6000);
 		return () => {
 			clearTimeout(timeId);
 		};
 	}, []);
 	return (
-		<div>
-			<div className={"mx-auto p-20"}>
-				<img src={logo} className={"mx-auto"} alt={"Algoritmo Interactivo"} />
+		<div className={"h-full"}>
+			<div className={"mx-auto p-2 h-3/4"}>
+				<img src={logo} className={"mx-auto h-full"} alt={"Algoritmo Interactivo"} />
 			</div>
 			<div className={"mx-auto p-5"}>
 				<Link to={"/welcome"} className={"btn btn-block btn-primary btn-primary-gradient"}>
