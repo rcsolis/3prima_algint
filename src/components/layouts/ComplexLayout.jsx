@@ -6,7 +6,7 @@ import StepperContainerComponent from "../navigation/StepperContainerComponent";
 // Complex layout components
 function ComplexLayout({ children, steps }) {
 	return (
-		<div className={"w-screen min-h-screen relative pb-2"}>
+		<div className={"w-full min-h-screen relative pb-20 mb-2"}>
 			<div className={"drawer min-h-screen"}>
 				<input id="drawerMenu" type="checkbox" className="drawer-toggle" />
 				<div className={"flex flex-col items-center justify-start drawer-content relative"}>

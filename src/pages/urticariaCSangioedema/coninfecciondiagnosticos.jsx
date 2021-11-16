@@ -24,7 +24,7 @@ function UrticariaConInfeccionDiagnosticosPage(){
                 <p>Existen ciertas enfermedades que pueden parecerse y confundirse con el
                     diagnóstico de Urticaria Aguda, sin embargo, no se trata de la misma condición.</p>
             </div>
-            <div className={"grid grid-cols-1 grid-rows-1 md:grid-cols-5 gap-4 mb-4"}>
+            <div className={"grid grid-cols-1 grid-rows-1 md:grid-cols-5 gap-4 mb-8"}>
                 <div>
                     <TextCardComponent title={"Dermatitis por contacto"}
                     titleClass={"text-center"}>
