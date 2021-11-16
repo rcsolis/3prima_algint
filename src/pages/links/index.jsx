@@ -12,15 +12,15 @@ function LinksPage(){
             <div className={"p-10 bg-white rounded-xl"}>
                 <ol className={"list-decimal text-xl space-y-5"}>
                     <li>
-                        <a href={"www.ga2len-ucare.com"} target={"_blank"}
+                        <a href={"http://www.ga2len-ucare.com"} target={"_blank"}
                         className={"text-secondary"}>ga2len-ucare.com</a>
                     </li>
                     <li>
-                        <a href={"www.acare-network.com"} target={"_blank"}
+                        <a href={"http://www.acare-network.com"} target={"_blank"}
                            className={"text-secondary"}>acare-network.com</a>
                     </li>
                     <li>
-                        <a href={"http://urticariaday.org/ "} target={"_blank"}
+                        <a href={"http://urticariaday.org/"} target={"_blank"}
                            className={"text-secondary"}>urticariaday.org/</a>
                     </li>
                     <li>

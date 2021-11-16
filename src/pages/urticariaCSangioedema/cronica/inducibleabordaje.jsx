@@ -26,7 +26,7 @@ function UrticariaCronicaInducibleAbordajePage(){
             <div className={"text-center text-2xl sm:text-3xl m-5 text-secondary font-bold"}>
                 <h1>Urticaria Crónica Inducible</h1>
             </div>
-            <div className={"text-center text-xl sm:text-2xl m-5 text-secondary font-bold"}>
+            <div className={"text-xl sm:text-2xl m-5 text-secondary font-bold"}>
                 <h2>Abordaje Terapéutico</h2>
             </div>
             <div className={"text-justify p-4"}>
@@ -48,7 +48,7 @@ function UrticariaCronicaInducibleAbordajePage(){
                     </li>
                 </ul>
             </div>
-            <div className={"text-center text-xl sm:text-2xl m-5 text-secondary font-bold"}>
+            <div className={"text-xl sm:text-2xl m-5 text-secondary font-bold"}>
                 <h2>Manejo por Especialista</h2>
             </div>
             <div className={"text-justify p-4"}>
@@ -62,7 +62,7 @@ function UrticariaCronicaInducibleAbordajePage(){
                     </li>
                 </ul>
             </div>
-            <div className={"text-center text-lg sm:text-xl m-5 text-secondary font-bold"}>
+            <div className={"text-lg sm:text-xl m-5 text-secondary font-bold"}>
                 <h3>Criterios para Referir</h3>
             </div>
             <div className={"text-justify p-4"}>

@@ -7,7 +7,7 @@ import Image2 from "../../assets/images/dermatitislesiones/dermatitislesiones2.p
 import Image2s2 from "../../assets/images/dermatitislesiones/dermatitislesiones2s2x.png";
 import Image3 from "../../assets/images/dermatitislesiones/dermatitislesiones3.png";
 import Image3s2 from "../../assets/images/dermatitislesiones/dermatitislesiones3s2x.png";
-import ImageCardComponent from "../../components/cards/ImageCardComponent";
+import ImageCardSliderComponent from "../../components/cards/ImageCardSliderComponent";
 
 
 function UrticariaAgudaDiagnosticosLesionesModalPage(){
@@ -27,40 +27,40 @@ function UrticariaAgudaDiagnosticosLesionesModalPage(){
                 </button>
             </div>
             <div className={"text-center mb-10"}>
-                <h1 className={"font-bold text-lg sm:text-xl"}>Dermatitis Asociación con otras lesiones</h1>
+                <h1 className={"font-bold text-lg sm:text-xl"}>Asociación con otras lesiones</h1>
             </div>
-            <div>
-                <div className="w-full carousel">
-                    <div id="slide1" className="relative w-full pt-20 carousel-item">
-                        <ImageCardComponent imageName={Image1} imageName2={Image1s2}>
+            <div className={"h-5/6"}>
+                <div className="w-full h-full carousel">
+                    <div id="slide1" className="relative w-full pt-2 carousel-item">
+                        <ImageCardSliderComponent imageName={Image1} imageName2={Image1s2}>
                             <div className={"text-center font-bold"}>
                                 <p>Eccema</p>
                             </div>
-                        </ImageCardComponent>
+                        </ImageCardSliderComponent>
                             <div
                                 className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                                 <a href="/urticaria-cs-angioedema/aguda/infeccion/diagnosticos/modal/lesiones#slide3" className="btn btn-circle">❮</a>
                                 <a href="/urticaria-cs-angioedema/aguda/infeccion/diagnosticos/modal/lesiones#slide2" className="btn btn-circle">❯</a>
                             </div>
                     </div>
-                    <div id="slide2" className="relative w-full pt-20 carousel-item">
-                        <ImageCardComponent imageName={Image2} imageName2={Image2s2}>
+                    <div id="slide2" className="relative w-full pt-2 carousel-item">
+                        <ImageCardSliderComponent imageName={Image2} imageName2={Image2s2}>
                             <div className={"text-center font-bold"}>
                                 <p>Pápulas</p>
                             </div>
-                        </ImageCardComponent>
+                        </ImageCardSliderComponent>
                         <div
                             className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="/urticaria-cs-angioedema/aguda/infeccion/diagnosticos/modal/lesiones#slide1" className="btn btn-circle">❮</a>
                             <a href="/urticaria-cs-angioedema/aguda/infeccion/diagnosticos/modal/lesiones#slide3" className="btn btn-circle">❯</a>
                         </div>
                     </div>
-                    <div id="slide3" className="relative w-full pt-20 carousel-item">
-                        <ImageCardComponent imageName={Image3} imageName2={Image3s2}>
+                    <div id="slide3" className="relative w-full pt-2 carousel-item">
+                        <ImageCardSliderComponent imageName={Image3} imageName2={Image3s2}>
                             <div className={"text-center font-bold"}>
                                 <p>Vesículas</p>
                             </div>
-                        </ImageCardComponent>
+                        </ImageCardSliderComponent>
                         <div
                             className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="/urticaria-cs-angioedema/aguda/infeccion/diagnosticos/modal/lesiones#slide2" className="btn btn-circle">❮</a>

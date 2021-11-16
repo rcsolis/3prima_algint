@@ -24,16 +24,17 @@ const WelcomePage = () => {
 				<div className={"grid grid-cols-1 sm:grid-cols-2 gap-4 items-start justify-around content-center"}>
 					<TextCardComponent
 						title={""}
+						textClass={"text-center"}
 						text={"Soy profesional de la salud con cédula médica y quiero acceder al recurso."}>
 						<button
-							className={"btn btn-block btn-primary btn-primary-gradient"}
+							className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
 							onClick={() => history.push("/home")}>
 							Seleccionar
 						</button>
 					</TextCardComponent>
-					<TextCardComponent title={""} text={"No soy profesional de la salud."}>
+					<TextCardComponent title={""} textClass={"text-center"} text={"No soy profesional de la salud."}>
 						<button
-							className={"btn btn-block btn-primary btn-primary-gradient"}
+							className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
 							onClick={() => history.push("/")}>
 							Seleccionar
 						</button>

@@ -34,7 +34,7 @@ function UrticariaConAlergiaMedicamentosPage() {
                     o como intolerancia cuando se trata de una inflamación tras el consumo de AINES o IECA*.
                 </p>
             </div>
-            <div className={"text-center text-xl sm:text-2xl m-5 text-secondary font-bold"}>
+            <div className={"text-xl sm:text-2xl m-5 text-secondary font-bold"}>
                 <h2>Recomendación</h2>
             </div>
             <div className={"text-justify p-4"}>

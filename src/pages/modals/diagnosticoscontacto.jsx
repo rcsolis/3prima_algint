@@ -5,7 +5,7 @@ import Image1 from "../../assets/images/dermatitiscontacto/dermatitiscontacto1.p
 import Image1s2 from "../../assets/images/dermatitiscontacto/dermatitiscontacto1s2x.png";
 import Image2 from "../../assets/images/dermatitiscontacto/dermatitiscontacto2.png";
 import Image2s2 from "../../assets/images/dermatitiscontacto/dermatitiscontacto2s2x.png";
-import ImageCardComponent from "../../components/cards/ImageCardComponent";
+import ImageCardSliderComponent from "../../components/cards/ImageCardSliderComponent";
 
 
 function UrticariaAgudaDiagnosticosContactoModalPage(){
@@ -27,26 +27,26 @@ function UrticariaAgudaDiagnosticosContactoModalPage(){
             <div className={"text-center mb-10"}>
                 <h1 className={"font-bold text-lg sm:text-xl"}>Dermatitis por contacto</h1>
             </div>
-            <div>
-                <div className="w-full carousel">
-                    <div id="slide1" className="relative w-full pt-20 carousel-item">
-                        <ImageCardComponent imageName={Image1} imageName2={Image1s2}>
+            <div className={"h-5/6"}>
+                <div className="w-full h-full carousel">
+                    <div id="slide1" className="relative w-full pt-2 carousel-item">
+                        <ImageCardSliderComponent imageName={Image1} imageName2={Image1s2}>
                             <div className={"text-center font-bold"}>
                                 <p>Dermatitis Alérgica</p>
                             </div>
-                        </ImageCardComponent>
+                        </ImageCardSliderComponent>
                             <div
                                 className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                                 <a href="/urticaria-cs-angioedema/aguda/infeccion/diagnosticos/modal/contacto#slide2" className="btn btn-circle">❮</a>
                                 <a href="/urticaria-cs-angioedema/aguda/infeccion/diagnosticos/modal/contacto#slide2" className="btn btn-circle">❯</a>
                             </div>
                     </div>
-                    <div id="slide2" className="relative w-full pt-20 carousel-item">
-                        <ImageCardComponent imageName={Image2} imageName2={Image2s2}>
+                    <div id="slide2" className="relative w-full pt-2 carousel-item">
+                        <ImageCardSliderComponent imageName={Image2} imageName2={Image2s2}>
                             <div className={"text-center font-bold"}>
                                 <p>Dermatitis Irritativa</p>
                             </div>
-                        </ImageCardComponent>
+                        </ImageCardSliderComponent>
                         <div
                             className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                             <a href="/urticaria-cs-angioedema/aguda/infeccion/diagnosticos/modal/contacto#slide1" className="btn btn-circle">❮</a>

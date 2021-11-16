@@ -12,7 +12,7 @@ function UrticariaCronicaDiagnosticosAutoinflamatoriosPage(){
         history.push("/urticaria-cs-angioedema/cronica/diagnosticos");
     }
     return <FullScreenModalComponent>
-        <div className={"w-full h-full bg-primary-gradient text-white rounded-2xl p-5"}>
+        <div className={"w-full h-screen bg-primary-gradient text-white rounded-2xl p-5"}>
             <div className={"text-right"}>
                 <button className="btn btn-outline btn-circle btn-xs text-white" onClick={GoBack}>
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
@@ -27,7 +27,7 @@ function UrticariaCronicaDiagnosticosAutoinflamatoriosPage(){
                     Síndromes autoinflamatorios
                 </h1>
             </div>
-            <div>
+            <div className={"max-w-full h-3/4"}>
                 <ImageCardComponent imageName={Image1} imageName2={Image1s2}>
                     <div className={"text-center font-bold"}>
                         <p>

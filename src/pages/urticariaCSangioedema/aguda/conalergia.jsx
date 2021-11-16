@@ -43,7 +43,7 @@ function UrticariaConAlergiaPage(){
                         Si
                     </button>
                 </TextCardComponent>
-                <div className={"col-span-1 sm:col-span-2"}>
+                <div className={"col-span-1 sm:col-span-2 mt-2"}>
                     <button
                         className={"btn btn-block btn-primary btn-primary-gradient"}
                         onClick={() => history.push("/urticaria-cs-angioedema/aguda")}>

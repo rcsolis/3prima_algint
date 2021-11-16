@@ -31,7 +31,7 @@ function UrticariaConInfeccionPage() {
                     que pueden desencadenar el cuadro clínico de urticaria aguda.
                 </p>
             </div>
-            <div className={"text-center text-xl sm:text-2xl m-5 text-secondary font-bold"}>
+            <div className={"text-xl sm:text-2xl m-5 text-secondary font-bold"}>
                 <h2>Recomendación</h2>
             </div>
             <div className={"text-justify p-4"}>

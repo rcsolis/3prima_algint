@@ -26,7 +26,6 @@ const HomePage = () => {
 							Urticaria: habones con/sin angioedema
 						</button>
 					</ImageCardComponent>
-
 					<ImageCardComponent imageName={Image2} imageName2={Image2s2x}>
 						<button
 							className={"btn btn-block btn-primary btn-primary-gradient"}

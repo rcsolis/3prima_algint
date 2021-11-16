@@ -23,9 +23,9 @@ function UrticariaAgudaDiagnosticosPicaduraModalPage(){
                 </button>
             </div>
             <div className={"text-center mb-10"}>
-                <h1 className={"font-bold text-lg sm:text-xl"}>Dermatitis por Picadura / mordedura de artrópodos</h1>
+                <h1 className={"font-bold text-lg sm:text-xl"}>Picadura / mordedura de artrópodos</h1>
             </div>
-            <div>
+            <div className={"max-w-full h-3/4"}>
                 <ImageCardComponent imageName={Image1} imageName2={Image1s2}>
                     <div className={"text-center font-bold"}>
                         <p>Picadura / mordedura de artrópodos</p>

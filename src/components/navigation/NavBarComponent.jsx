@@ -23,7 +23,7 @@ function NavBarComponent() {
 				<div className="text-center">
 					<Link to={"/welcome"}>
 						<span className="text-sm sm:text-2xl font-bold">
-							Algoritmo Interactivo - urticaria - angioedema
+							Algoritmo Interactivo Urticaria
 						</span>
 					</Link>
 				</div>

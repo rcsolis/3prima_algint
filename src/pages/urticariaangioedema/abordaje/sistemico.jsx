@@ -27,7 +27,7 @@ function UrticariaAngioedemaAbordajeSistemicoPage(){
                     - Enfermedad autoinmune
                 </p>
             </div>
-            <div className={"text-center text-xl sm:text-2xl m-5 text-yellow-400"}>
+            <div className={"text-xl sm:text-2xl m-5 text-yellow-400"}>
                 <h2>Recomendación</h2>
             </div>
             <div className={"p-4 mb-4"}>

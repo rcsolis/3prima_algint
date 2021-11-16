@@ -114,9 +114,8 @@ function UrticariaCronicaDiagnosticosPage(){
                         </button>
                     </TextCardComponent>
                 </div>
-
             </div>
-            <div>
+            <div className={"mt-8"}>
                 <button
                     className={"btn btn-block btn-primary btn-primary-gradient"}
                     onClick={() => history.push("/welcome")}>

@@ -23,9 +23,9 @@ function UrticariaAgudaDiagnosticosEritemaModalPage(){
                 </button>
             </div>
             <div className={"text-center mb-10"}>
-                <h1 className={"font-bold text-lg sm:text-xl"}>Dermatitis Eritema fijo pigmentario</h1>
+                <h1 className={"font-bold text-lg sm:text-xl"}>Eritema fijo pigmentario</h1>
             </div>
-            <div>
+            <div className={"max-w-full h-3/4"}>
                 <ImageCardComponent imageName={Image1} imageName2={Image1s2}>
                     <div className={"text-center font-bold"}>
                         <p>Eritema fijo pigmentario</p>

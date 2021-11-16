@@ -23,7 +23,7 @@ function UrticariaAngioedemaTratamientoPage(){
             <div className={"text-center text-2xl sm:text-3xl m-5 text-yellow-400 font-bold"}>
                 <h1>Angioedema sin habones</h1>
             </div>
-            <div className={"text-center text-xl sm:text-2xl m-5 text-yellow-400 font-bold"}>
+            <div className={"text-xl sm:text-2xl m-5 text-yellow-400 font-bold"}>
                 <h2>Criterios para Referir</h2>
             </div>
             <div className={"p-4 mb-4"}>
@@ -35,7 +35,7 @@ function UrticariaAngioedemaTratamientoPage(){
                     - Paciente con angioedema refractaria a tratamiento
                 </p>
             </div>
-            <div className={"text-center text-xl sm:text-2xl m-5 text-yellow-400 font-bold"}>
+            <div className={"text-xl sm:text-2xl m-5 text-yellow-400 font-bold"}>
                 <h2>Recomendación</h2>
             </div>
             <div className={"p-4 mb-4"}>
