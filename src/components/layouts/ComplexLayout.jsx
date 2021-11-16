@@ -3,6 +3,7 @@ import NavBarComponent from "../navigation/NavBarComponent";
 import SideBarMenuComponent from "../navigation/SideBarMenuComponent";
 import StepperContainerComponent from "../navigation/StepperContainerComponent";
 
+// Complex layout components
 function ComplexLayout({ children, steps }) {
 	return (
 		<div className={"w-screen min-h-screen relative pb-2"}>
