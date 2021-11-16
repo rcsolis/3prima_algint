@@ -6,7 +6,6 @@
 body{
     background: url("./assets/background.svg") no-repeat top center, #F7F7F7;
     background-size:contain;
-    width: 100vw;
     height: 100vh;
     color: #707070;
 }
