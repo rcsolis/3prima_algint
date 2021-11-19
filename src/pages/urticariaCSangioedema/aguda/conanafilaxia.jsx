@@ -40,7 +40,7 @@ function UrticariaConAnafilaxiaPage(){
                         En caso de persistir o progresión de sintomatología, referir al servicio de urgencias.
                     </li>
                     <li>
-                        Una vez resulta la urgencia médica, referir al alergólogo para determinar perfil de
+                        Una vez resuelta la urgencia médica, referir al alergólogo para determinar perfil de
                         sensibilización alérgica y completar el abordaje.
                     </li>
                 </ul>

@@ -33,11 +33,11 @@ function UrticariaConAlergiaAlimentosPage() {
                     - Se identifica como alergia cuando es mediada por mecanismos inmunológicos.
                 </p>
             </div>
-            <div className={"text-xl sm:text-2xl m-5 text-secondary font-bold"}>
+            <div className={"text-xl sm:text-2xl mx-5 my-2 text-secondary font-bold"}>
                 <h2>Recomendación</h2>
             </div>
             <div className={"text-justify p-4"}>
-                <ul className={"list-decimal space-y-5 list-inside"}>
+                <ul className={"list-decimal space-y-2 list-inside"}>
                     <li>
                         Evitar desencadenante.
                     </li>
@@ -63,6 +63,13 @@ function UrticariaConAlergiaAlimentosPage() {
                         className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                         onClick={() => history.push("/urticaria-cs-angioedema/aguda/infeccion/diagnosticos")}>
                         Diagnósticos Diferenciales
+                    </button>
+                </div>
+                <div className={"col-span-1 sm:col-span-3"}>
+                    <button
+                        className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
+                        onClick={() => history.push("/urticaria-cs-angioedema/aguda/alergia")}>
+                        Volver
                     </button>
                 </div>
             </div>

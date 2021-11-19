@@ -45,7 +45,7 @@ function UrticariaCronicaDiagnosticosPage(){
                     </TextCardComponent>
                 </div>
                 <div>
-                    <TextCardComponent title={"Mastocitosis cutánea sistémica"}
+                    <TextCardComponent title={"Mastocitosis"}
                                        titleClass={"text-center"}>
                         <button
                             className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}

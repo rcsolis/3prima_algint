@@ -3,7 +3,7 @@ import FullScreenModalComponent from "../../../components/modals/FullScreenModal
 import { useHistory } from "react-router-dom";
 import Image1 from "../../../assets/images/cronica/buloso.png"
 import Image1s2 from "../../../assets/images/cronica/buloso@2x.png";
-import ImageCardComponent from "../../../components/cards/ImageCardComponent";
+import ImageCardModalComponent from "../../../components/cards/ImageCardModalComponent";
 
 
 function UrticariaCronicaDiagnosticosBulosoPage(){
@@ -28,13 +28,13 @@ function UrticariaCronicaDiagnosticosBulosoPage(){
                 </h1>
             </div>
             <div className={"max-w-full h-auto"}>
-                <ImageCardComponent imageName={Image1} imageName2={Image1s2}>
+                <ImageCardModalComponent imageName={Image1} imageName2={Image1s2}>
                     <div className={"text-center font-bold"}>
                         <p>
                             Estadio preampolloso.
                         </p>
                     </div>
-                </ImageCardComponent>
+                </ImageCardModalComponent>
             </div>
         </div>
     </FullScreenModalComponent>

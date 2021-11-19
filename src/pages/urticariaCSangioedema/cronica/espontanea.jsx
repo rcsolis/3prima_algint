@@ -21,10 +21,10 @@ function UrticariaCronicaEspontaneaPage(){
     return <ComplexLayout steps={pageSteps}>
         <div className={"w-full mb-4"}>
             <TextBreadcumsComponent links={breadcums}/>
-            <div className={"text-center text-2xl sm:text-3xl m-5 text-secondary font-bold"}>
+            <div className={"text-center text-2xl sm:text-3xl mx-5 my-2 text-secondary font-bold"}>
                 <h1>Urticaria Crónica Espontánea</h1>
             </div>
-            <div className={"text-justify p-4 space-y-4"}>
+            <div className={"text-justify p-4 space-y-2"}>
                 <p>
                     No existe un desencadenante/exacerbante externo identificado.<br/>
                     Se caracteriza por una activación de las células cebadas en piel y mucosas con
@@ -37,11 +37,11 @@ function UrticariaCronicaEspontaneaPage(){
                     IgG - Autoinmunidad IIb
                 </p>
             </div>
-            <div className={"text-xl sm:text-2xl m-5 text-secondary font-bold"}>
+            <div className={"text-xl sm:text-2xl mx-5 my-2 text-secondary font-bold"}>
                 <h2>Recomendación</h2>
             </div>
             <div className={"text-justify p-4"}>
-                <ul className={"list-decimal space-y-5 list-inside"}>
+                <ul className={"list-decimal space-y-2 list-inside"}>
                     <li>
                         Interrogar acerca del consumo de medicamentos como AINEs o IECAs*.
                     </li>
@@ -60,6 +60,13 @@ function UrticariaCronicaEspontaneaPage(){
                         className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                         onClick={() => history.push("/urticaria-cs-angioedema/cronica/diagnosticos")}>
                         Diagnósticos Diferenciales
+                    </button>
+                </div>
+                <div className={"col-span-1 sm:col-span-3"}>
+                    <button
+                        className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
+                        onClick={() => history.push("/urticaria-cs-angioedema/cronica")}>
+                        Volver
                     </button>
                 </div>
                 <div className={"col-span-1 sm:col-span-2 text-xs text-left italic"}>

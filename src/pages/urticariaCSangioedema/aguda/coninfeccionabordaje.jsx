@@ -33,10 +33,10 @@ function UrticariaConInfeccionAbordajePage() {
                     <strong>Leve:</strong> Antihistamínicos de 2da generación, dosis habitual.
                 </p>
                 <p>
-                    <strong>Moderado:</strong> Antihistamínicos de 2da generación (incrementar hasta dosis habitual x4).
+                    <strong>Moderado:</strong> Antihistamínicos de 2da generación (incrementar dosis habitual x2,x3 o máximo x4).
                 </p>
                 <p>
-                    <strong>Grave:</strong> Antihistamínicos de 2da generación (incrementar hasta dosis habitual x4).
+                    <strong>Grave:</strong> Antihistamínicos de 2da generación (incrementar dosis habitual x2,x3 o máximo x4).
                     Más ciclo corto de esteroide sistémico (dosis equivalente a prednisona/prednisolona 1 mg/kg/día).
                 </p>
                 <p>
@@ -59,8 +59,8 @@ function UrticariaConInfeccionAbordajePage() {
                 <div>
                     <button
                         className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
-                        onClick={() => history.push("/urticaria-cs-angioedema/aguda/infeccion/diagnosticos")}>
-                        Diagnósticos Diferenciales
+                        onClick={() => history.push("/urticaria-cs-angioedema/aguda/infeccion")}>
+                        Volver
                     </button>
                 </div>
                 <div>

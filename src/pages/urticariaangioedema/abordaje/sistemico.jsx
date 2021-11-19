@@ -21,7 +21,7 @@ function UrticariaAngioedemaAbordajeSistemicoPage(){
                 <h1>Abordaje Inicial Angioedema sin habones</h1>
             </div>
             <div className={"p-4 mb-4"}>
-                <p>Si su paciente, responde a glucocorticoides sistémicos,
+                <p>Si su paciente responde a glucocorticoides sistémicos,
                 primero se deberá descartar:<br/><br/>
                     - Enfermedad linfoproliferativa<br/>
                     - Enfermedad autoinmune

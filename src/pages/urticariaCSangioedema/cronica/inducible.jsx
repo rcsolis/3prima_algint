@@ -70,6 +70,13 @@ function UrticariaCronicaInduciblePage(){
                             Diagnósticos Diferenciales
                         </button>
                     </div>
+                    <div className={"col-span-1 sm:col-span-3"}>
+                        <button
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
+                            onClick={() => history.push("/urticaria-cs-angioedema/cronica")}>
+                            Volver
+                        </button>
+                    </div>
                     <div className={"col-span-1 sm:col-span-2 text-xs text-left italic"}>
                         <p>*Puede presentarse incluso después de horas al estimulo. </p>
                     </div>

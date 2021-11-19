@@ -3,7 +3,7 @@ import FullScreenModalComponent from "../../../components/modals/FullScreenModal
 import { useHistory } from "react-router-dom";
 import Image1 from "../../../assets/images/cronica/autoinflamatorios.png"
 import Image1s2 from "../../../assets/images/cronica/autoinflamatorios@2x.png";
-import ImageCardComponent from "../../../components/cards/ImageCardComponent";
+import ImageCardModalComponent from "../../../components/cards/ImageCardModalComponent";
 
 
 function UrticariaCronicaDiagnosticosAutoinflamatoriosPage(){
@@ -28,14 +28,14 @@ function UrticariaCronicaDiagnosticosAutoinflamatoriosPage(){
                 </h1>
             </div>
             <div className={"max-w-full h-auto"}>
-                <ImageCardComponent imageName={Image1} imageName2={Image1s2}>
+                <ImageCardModalComponent imageName={Image1} imageName2={Image1s2}>
                     <div className={"text-center font-bold"}>
                         <p>
                             Fiebre recurrente, patrón periódico, artralgia/artritis, uveítis,
                             malestar general, cefalea, afección multisistémica.
                         </p>
                     </div>
-                </ImageCardComponent>
+                </ImageCardModalComponent>
             </div>
         </div>
     </FullScreenModalComponent>

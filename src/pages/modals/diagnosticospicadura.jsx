@@ -3,7 +3,7 @@ import FullScreenModalComponent from "../../components/modals/FullScreenModalCom
 import { useHistory } from "react-router-dom";
 import Image1 from "../../assets/images/dermatitispicadura/dermatitispicadura1.png";
 import Image1s2 from "../../assets/images/dermatitispicadura/dermatitispicadura1s2x.png";
-import ImageCardComponent from "../../components/cards/ImageCardComponent";
+import ImageCardModalComponent from "../../components/cards/ImageCardModalComponent";
 
 
 function UrticariaAgudaDiagnosticosPicaduraModalPage(){
@@ -26,11 +26,11 @@ function UrticariaAgudaDiagnosticosPicaduraModalPage(){
                 <h1 className={"font-bold text-lg sm:text-xl"}>Picadura / mordedura de artrópodos</h1>
             </div>
             <div className={"max-w-full h-auto"}>
-                <ImageCardComponent imageName={Image1} imageName2={Image1s2}>
+                <ImageCardModalComponent imageName={Image1} imageName2={Image1s2}>
                     <div className={"text-center font-bold"}>
                         <p>Picadura / mordedura de artrópodos</p>
                     </div>
-                </ImageCardComponent>
+                </ImageCardModalComponent>
             </div>
         </div>
     </FullScreenModalComponent>

@@ -23,7 +23,7 @@ function TemporalidadPage(){
             </div>
             <div className={"grid grid-cols-1 grid-rows-1 sm:grid-cols-2 sm:grid-rows-2 gap-4"}>
                 <div className={"col-span-1"}>
-                    <TextCardComponent title={"URTICARIA AGUDA"} text={"Menos de 5 semanas"} titleClass={"text-primary"}>
+                    <TextCardComponent title={"URTICARIA AGUDA"} text={"Menos de 6 semanas"} titleClass={"text-primary"}>
                         <button
                             className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/aguda")}>

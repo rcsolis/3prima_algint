@@ -3,7 +3,7 @@ import FullScreenModalComponent from "../../components/modals/FullScreenModalCom
 import { useHistory } from "react-router-dom";
 import Image1 from "../../assets/images/dermatitisurticarial/dermatitisurticarial1.png";
 import Image1s2 from "../../assets/images/dermatitisurticarial/dermatitisurticarial1s2x.png";
-import ImageCardComponent from "../../components/cards/ImageCardComponent";
+import ImageCardModalComponent from "../../components/cards/ImageCardModalComponent";
 
 
 function UrticariaAgudaDiagnosticosUrticarialModalPage(){
@@ -25,12 +25,12 @@ function UrticariaAgudaDiagnosticosUrticarialModalPage(){
             <div className={"text-center mb-10"}>
                 <h1 className={"font-bold text-lg sm:text-xl"}>Dermatitis urticarial</h1>
             </div>
-            <div className={"max-w-full h-auto"}>
-                <ImageCardComponent imageName={Image1} imageName2={Image1s2}>
+            <div className={"max-w-full h-2/3"}>
+                <ImageCardModalComponent imageName={Image1} imageName2={Image1s2}>
                     <div className={"text-center font-bold"}>
                         <p>Dermatitis urticarial</p>
                     </div>
-                </ImageCardComponent>
+                </ImageCardModalComponent>
             </div>
         </div>
     </FullScreenModalComponent>

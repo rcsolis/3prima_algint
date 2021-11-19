@@ -3,7 +3,7 @@ import FullScreenModalComponent from "../../../components/modals/FullScreenModal
 import { useHistory } from "react-router-dom";
 import Image1 from "../../../assets/images/cronica/vasculitica.png"
 import Image1s2 from "../../../assets/images/cronica/vasculitica@2x.png";
-import ImageCardComponent from "../../../components/cards/ImageCardComponent";
+import ImageCardModalComponent from "../../../components/cards/ImageCardModalComponent";
 
 
 function UrticariaCronicaDiagnosticosVasculiticaPage(){
@@ -28,7 +28,7 @@ function UrticariaCronicaDiagnosticosVasculiticaPage(){
                 </h1>
             </div>
             <div className={"max-w-full h-auto"}>
-                <ImageCardComponent imageName={Image1} imageName2={Image1s2}>
+                <ImageCardModalComponent imageName={Image1} imageName2={Image1s2}>
                     <div className={"text-center font-bold"}>
                         <p>
                             Lesiones con duración mayor de 24 a 36 horas, lesiones con hiperpigmentación
@@ -36,7 +36,7 @@ function UrticariaCronicaDiagnosticosVasculiticaPage(){
                             y eritema en palmas y plantas, así como datos de mucositis.
                         </p>
                     </div>
-                </ImageCardComponent>
+                </ImageCardModalComponent>
             </div>
         </div>
     </FullScreenModalComponent>

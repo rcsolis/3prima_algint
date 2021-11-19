@@ -27,7 +27,7 @@ function UrticariaConInfeccionPage() {
             <div className={"text-justify p-4"}>
                 <p>
                     Durante un proceso infeccioso agudo o subagudo se han identificado
-                    diferentes microorganismos (agentes virales, bacterianos, hongos y parásitos
+                    diferentes microorganismos (agentes virales, bacterianos, hongos y parásitos)
                     que pueden desencadenar el cuadro clínico de urticaria aguda.
                 </p>
             </div>
@@ -54,6 +54,13 @@ function UrticariaConInfeccionPage() {
                         className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                         onClick={() => history.push("/urticaria-cs-angioedema/aguda/infeccion/diagnosticos")}>
                         Diagnósticos Diferenciales
+                    </button>
+                </div>
+                <div className={"col-span-1 sm:col-span-2 mt-2"}>
+                    <button
+                        className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
+                        onClick={() => history.push("/urticaria-cs-angioedema")}>
+                        Volver
                     </button>
                 </div>
             </div>

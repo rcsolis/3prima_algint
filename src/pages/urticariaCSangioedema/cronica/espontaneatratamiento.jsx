@@ -25,18 +25,18 @@ function UrticariaCronicaEspontaneaTratamientoPage(){
     return <ComplexLayout steps={pageSteps}>
         <div className={"w-full mb-4"}>
             <TextBreadcumsComponent links={breadcums}/>
-            <div className={"text-center text-2xl sm:text-3xl m-5 text-secondary font-bold"}>
+            <div className={"text-center text-2xl sm:text-3xl mx-5 my-2 text-secondary font-bold"}>
                 <h1>Urticaria Crónica Espontánea</h1>
             </div>
-            <div className={"text-xl sm:text-2xl m-5 text-secondary font-bold"}>
+            <div className={"text-xl sm:text-2xl mx-5 my-2 text-secondary font-bold"}>
                 <h2>Abordaje Terapéutico</h2>
             </div>
             <div className={"text-justify p-4"}>
-                <ul className={"list-decimal space-y-5 list-inside"}>
+                <ul className={"list-decimal space-y-2 list-inside"}>
                     <li>Manejo sintomático
                        <p>
                            - Antihistamínicos 2da/nueva generación dosis habitual<br/>
-                           - Incrementar hasta dosis habitual x4
+                           - Incrementar dosis habitual x2, x3 o máximo x4
                        </p>
                     </li>
                     <li>Exacerbación grave
@@ -47,11 +47,11 @@ function UrticariaCronicaEspontaneaTratamientoPage(){
                     </li>
                 </ul>
             </div>
-            <div className={"text-xl sm:text-2xl m-5 text-secondary font-bold"}>
+            <div className={"text-xl sm:text-2xl mx-5 my-2 text-secondary font-bold"}>
                 <h2>Manejo por Especialista</h2>
             </div>
             <div className={"text-justify p-4"}>
-                <ul className={"list-decimal space-y-5 list-inside"}>
+                <ul className={"list-decimal space-y-2 list-inside"}>
                     <li>Manejo controlador/mantenimiento
                         <p>
                             - Omalizumab 300 mg cada 4 semanas (Valorar respuesta 4 – 6 meses de utilización)<br/>
@@ -61,7 +61,7 @@ function UrticariaCronicaEspontaneaTratamientoPage(){
                     </li>
                 </ul>
             </div>
-            <div className={"text-xl sm:text-2xl m-5 text-secondary font-bold"}>
+            <div className={"text-xl sm:text-2xl mx-5 my-2 text-secondary font-bold"}>
                 <h2>Criterios para Referir</h2>
             </div>
             <div className={"text-justify p-4"}>
@@ -81,8 +81,8 @@ function UrticariaCronicaEspontaneaTratamientoPage(){
                 <div>
                     <button
                         className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
-                        onClick={() => history.push("/urticaria-cs-angioedema/cronica/diagnosticos")}>
-                        Diagnósticos Diferenciales
+                        onClick={() => history.push("/welcome")}>
+                        Inicio del Algoritmo
                     </button>
                 </div>
             </div>
