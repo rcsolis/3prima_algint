@@ -55,14 +55,14 @@ function UrticariaAngioedemaDiagnosticoPage(){
             <div className={"grid grid-cols-1 grid-rows-1 md:grid-cols-2 gap-4 my-4"}>
                 <div>
                     <button
-                        className={"btn btn-block btn-primary btn-primary-gradient"}
+                        className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                         onClick={() => history.push("/urticaria-angioedema/abordaje")}>
                         Volver
                     </button>
                 </div>
                 <div>
                     <button
-                        className={"btn btn-block btn-primary btn-primary-gradient"}
+                        className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                         onClick={() => history.push("/urticaria-angioedema/tratamiento")}>
                         Criterios de Referencia
                     </button>

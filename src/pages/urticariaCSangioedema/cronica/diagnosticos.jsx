@@ -28,7 +28,7 @@ function UrticariaCronicaDiagnosticosPage(){
                     <TextCardComponent title={"Síndromes autoinflamatorios"}
                                        titleClass={"text-center"}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/cronica/diagnosticos/modal/autoinflamatorios")}>
                             Ver
                         </button>
@@ -38,7 +38,7 @@ function UrticariaCronicaDiagnosticosPage(){
                     <TextCardComponent title={"Urticaria vasculítica"}
                                        titleClass={"text-center"}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/cronica/diagnosticos/modal/vasculitica")}>
                             Ver
                         </button>
@@ -48,7 +48,7 @@ function UrticariaCronicaDiagnosticosPage(){
                     <TextCardComponent title={"Mastocitosis cutánea sistémica"}
                                        titleClass={"text-center"}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/cronica/diagnosticos/modal/sistemica")}>
                             Ver
                         </button>
@@ -58,7 +58,7 @@ function UrticariaCronicaDiagnosticosPage(){
                     <TextCardComponent title={"Síndrome de activación de la célula cebada"}
                                        titleClass={"text-center"}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/cronica/diagnosticos/modal/cebada")}>
                             Ver
                         </button>
@@ -68,7 +68,7 @@ function UrticariaCronicaDiagnosticosPage(){
                     <TextCardComponent title={"Síndrome de Schnitzler"}
                                        titleClass={"text-center"}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/cronica/diagnosticos/modal/schnitzler")}>
                             Ver
                         </button>
@@ -78,7 +78,7 @@ function UrticariaCronicaDiagnosticosPage(){
                     <TextCardComponent title={"Síndrome de Gleich"}
                                        titleClass={"text-center"}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/cronica/diagnosticos/modal/gleich")}>
                             Ver
                         </button>
@@ -88,7 +88,7 @@ function UrticariaCronicaDiagnosticosPage(){
                     <TextCardComponent title={"Síndrome de Well"}
                                        titleClass={"text-center"}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/cronica/diagnosticos/modal/well")}>
                             Ver
                         </button>
@@ -98,7 +98,7 @@ function UrticariaCronicaDiagnosticosPage(){
                     <TextCardComponent title={"Pénfigo buloso"}
                                        titleClass={"text-center"}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/cronica/diagnosticos/modal/buloso")}>
                             Ver
                         </button>
@@ -108,7 +108,7 @@ function UrticariaCronicaDiagnosticosPage(){
                     <TextCardComponent title={"Enfermedad de Still"}
                                        titleClass={"text-center"}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/cronica/diagnosticos/modal/still")}>
                             Ver
                         </button>
@@ -117,7 +117,7 @@ function UrticariaCronicaDiagnosticosPage(){
             </div>
             <div className={"mt-8"}>
                 <button
-                    className={"btn btn-block btn-primary btn-primary-gradient"}
+                    className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                     onClick={() => history.push("/welcome")}>
                     Inicio del algoritmo
                 </button>

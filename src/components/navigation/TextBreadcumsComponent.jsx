@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 function TextBreadcumsComponent({ links }) {
 	return (
-		<div className={"text-sm breadcrumbs hidden md:block"}>
+		<div className={"text-sm breadcrumbs hidden lg:block"}>
 			<ul>
 				{links.map((link, index) => (
 					<li key={`linkto${index}`}>

@@ -38,7 +38,7 @@ function UrticariaAngioedemaCuestionariosPage(){
                     <TextCardComponent title={"AECT"}
                                        text={"The Angioedema Control Test"}
                                        titleClass={"text-yellow-400 text-center"}>
-                        <a className={"btn btn-block btn-primary btn-primary-gradient"}
+                        <a className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                            href={"/files/AECT.pdf"} target="_blank" download>
                             Descargar
                         </a>
@@ -48,7 +48,7 @@ function UrticariaAngioedemaCuestionariosPage(){
                     <TextCardComponent title={"AAS"}
                                        text={"Angioedema Activity Score"}
                                        titleClass={"text-yellow-400 text-center"}>
-                        <a className={"btn btn-block btn-primary btn-primary-gradient"}
+                        <a className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                         href={"/files/AAS.pdf"} target="_blank" download>
                             Descargar
                         </a>
@@ -58,7 +58,7 @@ function UrticariaAngioedemaCuestionariosPage(){
                     <TextCardComponent title={"AE-QoL"}
                                        text={"Angioedema Quality of Life Questionnaire "}
                                        titleClass={"text-yellow-400 text-center"}>
-                        <a className={"btn btn-block btn-primary btn-primary-gradient"}
+                        <a className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                            href={"/files/AE-QoL.pdf"} target="_blank" download>
                             Descargar
                         </a>
@@ -68,7 +68,7 @@ function UrticariaAngioedemaCuestionariosPage(){
             </div>
             <div>
                 <button
-                    className={"btn btn-block btn-primary btn-primary-gradient"}
+                    className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                     onClick={() => history.push("/welcome")}>
                     Inicio del algoritmo
                 </button>

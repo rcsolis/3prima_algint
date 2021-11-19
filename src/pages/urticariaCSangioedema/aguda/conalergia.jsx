@@ -20,7 +20,7 @@ function UrticariaConAlergiaPage(){
     ];
 
     return <ComplexLayout steps={pageSteps}>
-        <div className={"w-full"}>
+        <div className={"w-full mb-4"}>
             <TextBreadcumsComponent links={breadcums}/>
             <div className={"text-center text-2xl sm:text-3xl m-5 text-secondary font-bold"}>
                 <h1>Urticaria asociada con alergias o

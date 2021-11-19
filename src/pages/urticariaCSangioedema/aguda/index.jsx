@@ -44,7 +44,7 @@ function UrticariaAgudaPage(){
                                        titleClass={"text-secondary"}
                                        actions={actions}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/aguda/anafilaxia")}>
                             Si
                         </button>
@@ -55,7 +55,7 @@ function UrticariaAgudaPage(){
                                        text={"Urticaria como parte del cuadro clínico de un proceso infeccioso"}
                                        titleClass={"text-secondary"}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/aguda/infeccion")}>
                             Si
                         </button>
@@ -65,7 +65,7 @@ function UrticariaAgudaPage(){
                     <TextCardComponent title={"¿Tiene antecedente alérgicos? ó ¿Encuentra algún desencadenante ?"}
                                        titleClass={"text-secondary"}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/aguda/alergia")}>
                             Si
                         </button>
@@ -73,7 +73,7 @@ function UrticariaAgudaPage(){
                 </div>
                 <div className={"col-span-1 sm:col-span-3"}>
                     <button
-                        className={"btn btn-block btn-primary btn-primary-gradient"}
+                        className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                         onClick={() => history.goBack()}>
                         Volver
                     </button>

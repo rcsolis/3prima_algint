@@ -40,14 +40,14 @@ function UrticariaAngioedemaPage(){
 
                 <div className={"col-span-1 sm:col-span-2 "}>
                     <button
-                        className={"btn btn-block btn-primary btn-primary-gradient"}
+                        className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                         onClick={() => history.push("/urticaria-angioedema/abordaje")}>
                         Continuar
                     </button>
                 </div>
                 <div className={"col-span-1 sm:col-span-2"}>
                     <button
-                        className={"btn btn-block btn-primary btn-primary-gradient"}
+                        className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                         onClick={() => history.push("/home")}>
                         Volver
                     </button>

@@ -39,7 +39,7 @@ function UrticariaCronicaPage(){
                     <TextCardComponent title={"Inducible"}
                                        titleClass={"text-secondary text-center"}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/cronica/inducible")}>
                             Si
                         </button>
@@ -49,7 +49,7 @@ function UrticariaCronicaPage(){
                     <TextCardComponent title={"Espontánea"}
                                        titleClass={"text-secondary text-center"}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/cronica/espontanea")}>
                             Si
                         </button>
@@ -58,7 +58,7 @@ function UrticariaCronicaPage(){
 
                 <div className={"col-span-1 sm:col-span-3 mt-2"}>
                     <button
-                        className={"btn btn-block btn-primary btn-primary-gradient"}
+                        className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                         onClick={() => history.goBack()}>
                         Volver
                     </button>

@@ -19,7 +19,7 @@ const Splash = () => {
 				<img src={logo} className={"mx-auto h-full"} alt={"Algoritmo Interactivo"} />
 			</div>
 			<div className={"mx-auto p-5"}>
-				<Link to={"/welcome"} className={"btn btn-block btn-primary btn-primary-gradient"}>
+				<Link to={"/welcome"} className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}>
 					Iniciar
 				</Link>
 			</div>

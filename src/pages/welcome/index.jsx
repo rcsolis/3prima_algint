@@ -8,7 +8,7 @@ const WelcomePage = () => {
 
 	return (
 		<SimpleLayout>
-			<div>
+			<div className={"h-full"}>
 				<div className={"text-center text-4xl m-5"}>
 					<h1 className={"text-primary"}>¡Bienvenido(a) Doctor(a)!</h1>
 				</div>
@@ -21,7 +21,7 @@ const WelcomePage = () => {
 						Este material fue creado por expertos y es de uso exclusivo para profesionales de la salud.
 					</p>
 				</div>
-				<div className={"grid grid-cols-1 sm:grid-cols-2 gap-4 items-start justify-around content-center"}>
+				<div className={"grid grid-cols-1 sm:grid-cols-2 gap-4 items-start auto-cols-fr auto-rows-fr justify-around content-center"}>
 					<TextCardComponent
 						title={""}
 						textClass={"text-center"}

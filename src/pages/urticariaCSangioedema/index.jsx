@@ -10,7 +10,7 @@ function UrticariaCSangioedemaPage(){
     const history = useHistory();
 
     return <SimpleLayout>
-            <div className={"w-full"}>
+            <div className={"w-full mb-4"}>
                 <TextBreadcumsComponent links={[{ title: "Inicio", to: "/welcome" }, { title: "Selección", to: "/home" }]} />
                 <div className={"text-center text-xl m-5"}>
                     <p>Seleccione el diagnóstico clínico de su paciente</p>
@@ -49,14 +49,14 @@ function UrticariaCSangioedemaPage(){
 
                     <div className={"col-span-1 sm:col-span-2 "}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/temporalidad")}>
                             Continuar
                         </button>
                     </div>
                     <div className={"col-span-1 sm:col-span-2"}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/home")}>
                             Volver
                         </button>

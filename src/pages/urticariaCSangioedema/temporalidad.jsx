@@ -16,7 +16,7 @@ function TemporalidadPage(){
     ];
 
     return <ComplexLayout steps={pageSteps}>
-        <div className={"w-full"}>
+        <div className={"w-full mb-4"}>
             <TextBreadcumsComponent links={breadcums} />
             <div className={"text-center text-xl m-5"}>
                 <p>Seleccione la temporalidad de los síntomas</p>
@@ -25,7 +25,7 @@ function TemporalidadPage(){
                 <div className={"col-span-1"}>
                     <TextCardComponent title={"URTICARIA AGUDA"} text={"Menos de 5 semanas"} titleClass={"text-primary"}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/aguda")}>
                             Seleccionar
                         </button>
@@ -34,7 +34,7 @@ function TemporalidadPage(){
                 <div className={"col-span-1"}>
                     <TextCardComponent title={"URTICARIA CRÓNICA"} text={"Más de 6 semanas"} titleClass={"text-primary"}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/cronica")}>
                             Seleccionar
                         </button>
@@ -42,7 +42,7 @@ function TemporalidadPage(){
                 </div>
                 <div className={"col-span-1 sm:col-span-2 mt-2"}>
                     <button
-                        className={"btn btn-block btn-primary btn-primary-gradient"}
+                        className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                         onClick={() => history.push("/urticaria-cs-angioedema")}>
                         Volver
                     </button>

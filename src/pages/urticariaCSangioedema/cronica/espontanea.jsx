@@ -50,14 +50,14 @@ function UrticariaCronicaEspontaneaPage(){
             <div className={"grid grid-cols-1 grid-rows-1 sm:grid-cols-2 gap-4"}>
                 <div>
                     <button
-                        className={"btn btn-block btn-primary btn-primary-gradient"}
+                        className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                         onClick={() => history.push("/urticaria-cs-angioedema/cronica/espontanea/abordaje")}>
                         Abordaje Diagnóstico
                     </button>
                 </div>
                 <div>
                     <button
-                        className={"btn btn-block btn-primary btn-primary-gradient"}
+                        className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                         onClick={() => history.push("/urticaria-cs-angioedema/cronica/diagnosticos")}>
                         Diagnósticos Diferenciales
                     </button>

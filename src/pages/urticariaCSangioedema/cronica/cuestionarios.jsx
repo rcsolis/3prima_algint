@@ -39,7 +39,7 @@ function UrticariaCronicaCuestionariosPage(){
                     <TextCardComponent title={"UCT"}
                                        text={"Urticaria Control Test"}
                                        titleClass={"text-secondary text-center"}>
-                        <a className={"btn btn-block btn-primary btn-primary-gradient"}
+                        <a className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                            href={"/files/UCT.pdf"} target="_blank" download>
                             Descargar
                         </a>
@@ -49,7 +49,7 @@ function UrticariaCronicaCuestionariosPage(){
                     <TextCardComponent title={"UAS7"}
                                        text={"Urticaria Activity Score"}
                                        titleClass={"text-secondary text-center"}>
-                        <a className={"btn btn-block btn-primary btn-primary-gradient"}
+                        <a className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                            href={"/files/UAS7.pdf"} target="_blank" download>
                             Descargar
                         </a>
@@ -59,7 +59,7 @@ function UrticariaCronicaCuestionariosPage(){
                     <TextCardComponent title={"CU-Q2oL"}
                                        text={"Chronic Urticaria Quality of Life Questionnaire"}
                                        titleClass={"text-secondary text-center"}>
-                        <a className={"btn btn-block btn-primary btn-primary-gradient"}
+                        <a className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                            href={"/files/CU-Q2oL.pdf"} target="_blank" download>
                             Descargar
                         </a>
@@ -75,14 +75,14 @@ function UrticariaCronicaCuestionariosPage(){
             </div>
             <div className={"mb-4"}>
                 <button
-                    className={"btn btn-block btn-primary btn-primary-gradient"}
+                    className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                     onClick={() => history.push("/urticaria-angioedema/cuestionarios")}>
                     Ver Cuestionarios
                 </button>
             </div>
             <div>
                 <button
-                    className={"btn btn-block btn-primary btn-primary-gradient"}
+                    className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                     onClick={() => history.push("/welcome")}>
                     Inicio del algoritmo
                 </button>

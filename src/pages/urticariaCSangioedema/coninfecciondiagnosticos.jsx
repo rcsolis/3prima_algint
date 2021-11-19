@@ -15,7 +15,7 @@ function UrticariaConInfeccionDiagnosticosPage(){
         {title: "Con Infección", to: "/urticaria-cs-angioedema/aguda/infeccion"},
     ];
     return <SimpleLayout>
-        <div className={"w-full"}>
+        <div className={"w-full mb-4"}>
             <TextBreadcumsComponent links={breadcums} />
             <div className={"text-center text-2xl sm:text-3xl m-5 text-secondary font-bold"}>
                 <h1>Diagnósticos Diferenciales</h1>
@@ -29,7 +29,7 @@ function UrticariaConInfeccionDiagnosticosPage(){
                     <TextCardComponent title={"Dermatitis por contacto"}
                     titleClass={"text-center"}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/aguda/infeccion/diagnosticos/modal/contacto")}>
                             Ver
                         </button>
@@ -39,7 +39,7 @@ function UrticariaConInfeccionDiagnosticosPage(){
                     <TextCardComponent title={"Dermatitis urticarial"}
                                        titleClass={"text-center"}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/aguda/infeccion/diagnosticos/modal/urticarial")}>
                             Ver
                         </button>
@@ -49,7 +49,7 @@ function UrticariaConInfeccionDiagnosticosPage(){
                     <TextCardComponent title={"Picadura / mordedura de artrópodos"}
                                        titleClass={"text-center"}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/aguda/infeccion/diagnosticos/modal/picadura")}>
                             Ver
                         </button>
@@ -59,7 +59,7 @@ function UrticariaConInfeccionDiagnosticosPage(){
                     <TextCardComponent title={"Eritema fijo pigmentario"}
                                        titleClass={"text-center"}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/aguda/infeccion/diagnosticos/modal/eritema")}>
                             Ver
                         </button>
@@ -69,7 +69,7 @@ function UrticariaConInfeccionDiagnosticosPage(){
                     <TextCardComponent title={"Asociación con otras lesiones"}
                                        titleClass={"text-center"}>
                         <button
-                            className={"btn btn-block btn-primary btn-primary-gradient"}
+                            className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                             onClick={() => history.push("/urticaria-cs-angioedema/aguda/infeccion/diagnosticos/modal/lesiones")}>
                             Ver
                         </button>
@@ -78,7 +78,7 @@ function UrticariaConInfeccionDiagnosticosPage(){
             </div>
             <div>
                 <button
-                    className={"btn btn-block btn-primary btn-primary-gradient"}
+                    className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                     onClick={() => history.push("/welcome")}>
                     Inicio del algoritmo
                 </button>

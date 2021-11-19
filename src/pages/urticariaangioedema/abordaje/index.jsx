@@ -25,7 +25,7 @@ function UrticariaAngioedemaAbordajePage(){
             <TextCardComponent text={"Mi paciente cuenta con antecedente heredofamiliar de angioedema hereditario y/o su cuadro se acompaña de síntomas sistémicos (artralgias/artritis, fiebre, dolor abdominal u otros síntomas gastrointestinales) y/o no ha respondido a tratamiento con antihistamínicos o glucocorticoides sistémicos."}
                                titleClass={"text-center"}>
                 <button
-                    className={"btn btn-block btn-primary btn-primary-gradient"}
+                    className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                     onClick={() => history.push("/urticaria-angioedema/diagnostico")}>
                     Seleccionar
                 </button>
@@ -34,7 +34,7 @@ function UrticariaAngioedemaAbordajePage(){
                 <TextCardComponent text={"¿Está asociado al uso de algún medicamento como AINE o IECA?"}
                                    titleClass={"text-center"}>
                     <button
-                        className={"btn btn-block btn-primary btn-primary-gradient"}
+                        className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                         onClick={() => history.push("/urticaria-cs-angioedema/aguda/alergia/medicamentos")}>
                         Si
                     </button>
@@ -42,7 +42,7 @@ function UrticariaAngioedemaAbordajePage(){
                 <TextCardComponent text={"¿Responde a antihistamínicos?"}
                                    titleClass={"text-center"}>
                     <button
-                        className={"btn btn-block btn-primary btn-primary-gradient"}
+                        className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                         onClick={() => history.push("/urticaria-angioedema/abordaje/antihistaminicos")}>
                         Si
                     </button>
@@ -50,7 +50,7 @@ function UrticariaAngioedemaAbordajePage(){
                 <TextCardComponent text={"¿Responde a glucocorticoide sistémico?"}
                                    titleClass={"text-center"}>
                     <button
-                        className={"btn btn-block btn-primary btn-primary-gradient"}
+                        className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                         onClick={() => history.push("/urticaria-angioedema/abordaje/sistemico")}>
                         Si
                     </button>
@@ -58,7 +58,7 @@ function UrticariaAngioedemaAbordajePage(){
             </div>
             <div className={"mb-4"}>
                 <button
-                    className={"btn btn-block btn-primary btn-primary-gradient"}
+                    className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
                     onClick={() => history.push("/urticaria-angioedema")}>
                     Volver
                 </button>

@@ -27,7 +27,7 @@ function UrticariaCronicaDiagnosticosAutoinflamatoriosPage(){
                     Síndromes autoinflamatorios
                 </h1>
             </div>
-            <div className={"max-w-full h-3/4"}>
+            <div className={"max-w-full h-auto"}>
                 <ImageCardComponent imageName={Image1} imageName2={Image1s2}>
                     <div className={"text-center font-bold"}>
                         <p>
