@@ -59,7 +59,7 @@ function UrticariaCronicaPage(){
                 <div className={"col-span-1 sm:col-span-3 mt-2"}>
                     <button
                         className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
-                        onClick={() => history.goBack()}>
+                        onClick={() => history.push("/urticaria-cs-angioedema/temporalidad")}>
                         Volver
                     </button>
                 </div>
