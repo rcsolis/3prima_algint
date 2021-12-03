@@ -24,7 +24,7 @@ function UrticariaCronicaDiagnosticosSistemicaPage(){
             </div>
             <div className={"text-center mb-10"}>
                 <h1 className={"font-bold text-lg sm:text-xl"}>
-                    Mastocitosis cutánea sistémica
+                    Mastocitosis
                 </h1>
             </div>
             <div className={"max-w-full h-auto"}>

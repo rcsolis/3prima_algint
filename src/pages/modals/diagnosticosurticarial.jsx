@@ -25,7 +25,7 @@ function UrticariaAgudaDiagnosticosUrticarialModalPage(){
             <div className={"text-center mb-10"}>
                 <h1 className={"font-bold text-lg sm:text-xl"}>Dermatitis urticarial</h1>
             </div>
-            <div className={"max-w-full h-2/3"}>
+            <div className={"mx-auto"}>
                 <ImageCardModalComponent imageName={Image1} imageName2={Image1s2}>
                     <div className={"text-center font-bold"}>
                         <p>Dermatitis urticarial</p>

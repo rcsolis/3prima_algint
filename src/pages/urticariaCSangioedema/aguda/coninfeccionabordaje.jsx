@@ -33,10 +33,10 @@ function UrticariaConInfeccionAbordajePage() {
                     <strong>Leve:</strong> Antihistamínicos de 2da generación, dosis habitual.
                 </p>
                 <p>
-                    <strong>Moderado:</strong> Antihistamínicos de 2da generación (incrementar dosis habitual x2,x3 o máximo x4).
+                    <strong>Moderado:</strong> Antihistamínicos de 2da generación (incrementar dosis habitual x2, x3 o máximo x4).
                 </p>
                 <p>
-                    <strong>Grave:</strong> Antihistamínicos de 2da generación (incrementar dosis habitual x2,x3 o máximo x4).
+                    <strong>Grave:</strong> Antihistamínicos de 2da generación (incrementar dosis habitual x2, x3 o máximo x4).
                     Más ciclo corto de esteroide sistémico (dosis equivalente a prednisona/prednisolona 1 mg/kg/día).
                 </p>
                 <p>

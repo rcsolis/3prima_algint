@@ -27,7 +27,7 @@ function UrticariaCronicaDiagnosticosSchnitzlerPage(){
                     Síndrome de Schnitzler
                 </h1>
             </div>
-            <div className={"max-w-full h-auto"}>
+            <div className={"mx-auto"}>
                 <ImageCardModalComponent imageName={Image1} imageName2={Image1s2}>
                     <div className={"text-center font-bold"}>
                         <p>
