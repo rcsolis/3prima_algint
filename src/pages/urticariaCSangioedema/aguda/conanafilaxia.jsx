@@ -1,10 +1,13 @@
 import React from "react";
 import ComplexLayout from "../../../components/layouts/ComplexLayout";
-import { useHistory } from "react-router-dom";
 import TextBreadcumsComponent from "../../../components/navigation/TextBreadcumsComponent";
+import Dialog from "../../../components/dialog";
+import { useHistory } from "react-router-dom";
 
 function UrticariaConAnafilaxiaPage(){
     const history = useHistory();
+    const [openModal, setOpenModal] = React.useState(false);
+
     const pageSteps = [
         {title:"Urticaria: habones con/sin angioedema", active:true},
         {title:"Aguda", active:true},
@@ -20,6 +23,7 @@ function UrticariaConAnafilaxiaPage(){
 
     return <ComplexLayout steps={pageSteps}>
         <div className={"w-full mb-4"}>
+            <Dialog show={openModal} setShow={setOpenModal}/>
             <TextBreadcumsComponent links={breadcums}/>
             <div className={"text-center text-2xl sm:text-3xl m-5 text-secondary font-bold"}>
                 <h1>Urticaria como parte del cuadro
@@ -49,14 +53,14 @@ function UrticariaConAnafilaxiaPage(){
                 <div>
                     <button
                         className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
-                        onClick={() => history.goBack()}>
+                        onClick={() => history.push("/urticaria-cs-angioedema/aguda")}>
                         Volver
                     </button>
                 </div>
                 <div>
                     <button
                         className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
-                        onClick={() => history.push("/welcome")}>
+                        onClick={() => setOpenModal(true)}>
                         Inicio del algoritmo
                     </button>
                 </div>

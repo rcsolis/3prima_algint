@@ -53,6 +53,8 @@ import UrticariaAngioedemaAbordajeSistemicoPage from "./pages/urticariaangioedem
 import UrticariaAngioedemaDiagnosticoPage from "./pages/urticariaangioedema/diagnostico";
 import UrticariaAngioedemaTratamientoPage from "./pages/urticariaangioedema/tratamiento";
 import UrticariaAngioedemaCuestionariosPage from "./pages/urticariaangioedema/cuestionarios";
+import "@material-tailwind/react/tailwind.css";
+
 
 ReactDOM.render(
 	<React.StrictMode>

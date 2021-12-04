@@ -2,10 +2,13 @@ import React from "react";
 import ComplexLayout from "../../../components/layouts/ComplexLayout";
 import { useHistory } from "react-router-dom";
 import TextBreadcumsComponent from "../../../components/navigation/TextBreadcumsComponent";
+import Dialog from "../../../components/dialog";
 
 
 function UrticariaCronicaEspontaneaTratamientoPage(){
     const history = useHistory();
+    const [openModal, setOpenModal] = React.useState(false);
+
     const pageSteps = [
         {title:"Urticaria: habones con/sin angioedema", active:true},
         {title:"Crónica", active:true},
@@ -23,6 +26,7 @@ function UrticariaCronicaEspontaneaTratamientoPage(){
         {title:"Diagnóstico", to:"/urticaria-cs-angioedema/cronica/espontanea/abordaje"},
     ];
     return <ComplexLayout steps={pageSteps}>
+        <Dialog show={openModal} setShow={setOpenModal}/>
         <div className={"w-full mb-4"}>
             <TextBreadcumsComponent links={breadcums}/>
             <div className={"text-center text-2xl sm:text-3xl mx-5 my-2 text-secondary font-bold"}>
@@ -81,7 +85,7 @@ function UrticariaCronicaEspontaneaTratamientoPage(){
                 <div>
                     <button
                         className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
-                        onClick={() => history.push("/welcome")}>
+                        onClick={() => setOpenModal(true)}>
                         Inicio del Algoritmo
                     </button>
                 </div>

@@ -3,10 +3,13 @@ import SimpleLayout from "../../../components/layouts/SimpleLayout";
 import TextBreadcumsComponent from "../../../components/navigation/TextBreadcumsComponent";
 import { useHistory } from "react-router-dom";
 import TextCardComponent from "../../../components/cards/TextCardComponent";
+import Dialog from "../../../components/dialog";
 
 
 function UrticariaCronicaDiagnosticosPage(){
     const history = useHistory();
+    const [openModal, setOpenModal] = React.useState(false);
+
     const breadcums = [
         {title: "Inicio", to: "/welcome"}, {title: "Selección", to: "/home"},
         {title: "Urticaria: habones c/s angioedema", to: "/urticaria-cs-angioedema"},
@@ -14,6 +17,7 @@ function UrticariaCronicaDiagnosticosPage(){
         {title: "Crónica", to: "/urticaria-cs-angioedema/cronica"},
     ];
     return <SimpleLayout>
+        <Dialog show={openModal} setShow={setOpenModal}/>
         <div className={"w-full"}>
             <TextBreadcumsComponent links={breadcums} />
             <div className={"text-center text-2xl sm:text-3xl m-5 text-secondary font-bold"}>
@@ -118,7 +122,7 @@ function UrticariaCronicaDiagnosticosPage(){
             <div className={"mt-8"}>
                 <button
                     className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
-                    onClick={() => history.push("/welcome")}>
+                    onClick={() => setOpenModal(true)}>
                     Inicio del algoritmo
                 </button>
             </div>
