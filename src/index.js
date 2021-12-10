@@ -54,6 +54,13 @@ import UrticariaAngioedemaDiagnosticoPage from "./pages/urticariaangioedema/diag
 import UrticariaAngioedemaTratamientoPage from "./pages/urticariaangioedema/tratamiento";
 import UrticariaAngioedemaCuestionariosPage from "./pages/urticariaangioedema/cuestionarios";
 import "@material-tailwind/react/tailwind.css";
+import TagManager from "react-gtm-module";
+
+const tagManagerArgs = {
+	gtmId: 'GTM-K3W95MG'
+}
+
+TagManager.initialize(tagManagerArgs);
 
 
 ReactDOM.render(
