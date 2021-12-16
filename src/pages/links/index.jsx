@@ -6,11 +6,11 @@ function LinksPage(){
     return <SimpleLayout>
 
         <div className={"w-full"}>
-            <div className={"text-center text-xl sm:text-3xl m-5 text-primary"}>
+            <div className={"text-center text-lg sm:text-xl m-5 text-primary"}>
                 <p>Enlaces de Interés</p>
             </div>
-            <div className={"p-10 bg-white rounded-xl"}>
-                <ol className={"list-decimal text-xl space-y-5"}>
+            <div className={"px-10 py-5 bg-white rounded-xl"}>
+                <ol className={"list-decimal text-lg"}>
                     <li>
                         <a href={"http://www.ga2len-ucare.com"} target={"_blank"}
                         className={"text-secondary"}>ga2len-ucare.com</a>
@@ -42,6 +42,34 @@ function LinksPage(){
                     <li>
                         <a href={"https://urticariaguideline.org/"} target={"_blank"}
                            className={"text-secondary"}>urticariaguideline.org</a>
+                    </li>
+                </ol>
+            </div>
+            <div className={"text-center text-lg sm:text-xl m-5 text-primary"}>
+                <p>Referencias</p>
+            </div>
+            <div className={"px-10 py-5 bg-white rounded-xl"}>
+                <ol className={"list-decimal space-y-2"}>
+                    <li>
+                        Zuberbier, T, Abdul Latiff, AH, Abuzakouk, M, et al. The international EAACI/GA²LEN/EuroGuiDerm/APAAACI
+                        guideline for the definition, classification, diagnosis, and management of urticaria. Allergy. 2021;
+                        00: 1– 33. doi:10.1111/all.15090
+                        Disponible en:
+                        <a href={"https://onlinelibrary.wiley.com/share/HFYEZYATAVFXBPQWXEZD?target=10.1111/all.15090"}
+                           target={"_blank"}
+                           className={"text-secondary"}>
+                            https://onlinelibrary.wiley.com/share/HFYEZYATAVFXBPQWXEZD?target=10.1111/all.15090
+                        </a>
+                    </li>
+                    <li>
+                        Morales, S, Solorio, G, Alonzo, R, et al. Guía Mexicana para el Diagnóstico y el Tratamiento de
+                        la Urticaria. Revista Alergia México [Internet]. 2014;61(2):S117-S193.
+                        Disponible en:
+                        <a href={"https://www.redalyc.org/articulo.oa?id=486755031002"}
+                           target={"_blank"}
+                           className={"text-secondary"}>
+                            https://www.redalyc.org/articulo.oa?id=486755031002
+                        </a>
                     </li>
                 </ol>
             </div>
