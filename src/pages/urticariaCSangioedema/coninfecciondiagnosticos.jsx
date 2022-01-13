@@ -29,7 +29,7 @@ function UrticariaConInfeccionDiagnosticosPage(){
             </div>
             <div className={"grid grid-cols-1 grid-rows-1 md:grid-cols-5 gap-4 mb-8"}>
                 <div>
-                    <TextCardComponent title={"Dermatitis por contacto"}
+                    <TextCardComponent title={"Urticaria por contacto"}
                     titleClass={"text-center"}>
                         <button
                             className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
@@ -39,7 +39,7 @@ function UrticariaConInfeccionDiagnosticosPage(){
                     </TextCardComponent>
                 </div>
                 <div>
-                    <TextCardComponent title={"Dermatitis urticarial"}
+                    <TextCardComponent title={"Urticaria vasculítica"}
                                        titleClass={"text-center"}>
                         <button
                             className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
@@ -59,7 +59,7 @@ function UrticariaConInfeccionDiagnosticosPage(){
                     </TextCardComponent>
                 </div>
                 <div>
-                    <TextCardComponent title={"Eritema fijo pigmentario"}
+                    <TextCardComponent title={"Eritema fijo pigmentado"}
                                        titleClass={"text-center"}>
                         <button
                             className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}
@@ -69,7 +69,7 @@ function UrticariaConInfeccionDiagnosticosPage(){
                     </TextCardComponent>
                 </div>
                 <div>
-                    <TextCardComponent title={"Asociación con otras lesiones"}
+                    <TextCardComponent title={"Dermatitis atópica"}
                                        titleClass={"text-center"}>
                         <button
                             className={"transition duration-500 ease-in-out transform hover:scale-95 btn btn-block btn-primary btn-primary-gradient"}

@@ -1,8 +1,9 @@
 import React from "react";
 import FullScreenModalComponent from "../../components/modals/FullScreenModalComponent";
 import { useHistory } from "react-router-dom";
-import Image1 from "../../assets/images/dermatitiseritema/dermatitiseritema1.png";
-import Image1s2 from "../../assets/images/dermatitiseritema/dermatitiseritema1s2x.png";
+//import Image1 from "../../assets/images/dermatitiseritema/dermatitiseritema1.png";
+//import Image1s2 from "../../assets/images/dermatitiseritema/dermatitiseritema1s2x.png";
+import Image from "../../assets/images/dermatitiseritema/dermatitiseritema1.jpg"
 import ImageCardModalComponent from "../../components/cards/ImageCardModalComponent";
 
 
@@ -23,12 +24,12 @@ function UrticariaAgudaDiagnosticosEritemaModalPage(){
                 </button>
             </div>
             <div className={"text-center mb-10"}>
-                <h1 className={"font-bold text-lg sm:text-xl"}>Eritema fijo pigmentario</h1>
+                <h1 className={"font-bold text-lg sm:text-xl"}>Eritema fijo pigmentado</h1>
             </div>
             <div className={"mx-auto"}>
-                <ImageCardModalComponent imageName={Image1} imageName2={Image1s2}>
+                <ImageCardModalComponent imageName={Image} imageName2={Image}>
                     <div className={"text-center font-bold"}>
-                        <p>Eritema fijo pigmentario</p>
+                        <p>Eritema fijo pigmentado</p>
                     </div>
                 </ImageCardModalComponent>
             </div>

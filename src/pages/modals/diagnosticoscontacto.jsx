@@ -25,23 +25,25 @@ function UrticariaAgudaDiagnosticosContactoModalPage(){
                 </button>
             </div>
             <div className={"text-center mb-10"}>
-                <h1 className={"font-bold text-lg sm:text-xl"}>Dermatitis por contacto</h1>
+                <h1 className={"font-bold text-lg sm:text-xl"}>Urticaria por contacto</h1>
             </div>
             <div className={"h-5/6"}>
                 <div className="w-full h-full carousel">
                     <div id="slide1" className="relative w-full pt-2 carousel-item">
                         <ImageCardSliderComponent imageName={Image1} imageName2={Image1s2}>
                             <div className={"text-center font-bold"}>
-                                <p>Dermatitis Alérgica</p>
+                                <p>Urticaria por contacto</p>
                             </div>
                         </ImageCardSliderComponent>
                             <div
                                 className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                                {/*
                                 <a href="/urticaria-cs-angioedema/aguda/infeccion/diagnosticos/modal/contacto#slide2" className="btn btn-circle">❮</a>
                                 <a href="/urticaria-cs-angioedema/aguda/infeccion/diagnosticos/modal/contacto#slide2" className="btn btn-circle">❯</a>
+                                */}
                             </div>
                     </div>
-                    <div id="slide2" className="relative w-full pt-2 carousel-item">
+                    {/*<div id="slide2" className="relative w-full pt-2 carousel-item">
                         <ImageCardSliderComponent imageName={Image2} imageName2={Image2s2}>
                             <div className={"text-center font-bold"}>
                                 <p>Dermatitis Irritativa</p>
@@ -52,7 +54,7 @@ function UrticariaAgudaDiagnosticosContactoModalPage(){
                             <a href="/urticaria-cs-angioedema/aguda/infeccion/diagnosticos/modal/contacto#slide1" className="btn btn-circle">❮</a>
                             <a href="/urticaria-cs-angioedema/aguda/infeccion/diagnosticos/modal/contacto#slide1" className="btn btn-circle">❯</a>
                         </div>
-                    </div>
+                    </div>*/}
                 </div>
             </div>
         </div>

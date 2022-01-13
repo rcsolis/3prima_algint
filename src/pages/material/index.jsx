@@ -5,7 +5,7 @@ import SimpleLayout from "../../components/layouts/SimpleLayout";
 function MaterialPage(){
     return <SimpleLayout>
         <div className={"w-full"}>
-            <div className={"text-center text-xl sm:text-3xl m-5 text-primary"}>
+            <div className={"text-center text-xl sm:text-3xl m-2 text-primary"}>
                 <p>Material PDF</p>
             </div>
             <div className={"p-2 flex flex-col gap-2 items-start"}>
@@ -16,7 +16,9 @@ function MaterialPage(){
                         </svg>
                     </div>
                     <div className={"flex-1 align-middle px-2 text-lg sm:text-xl leading-relaxed"}>
-                            UCT. Urticarial Control Test
+                            UCT. Urticarial Control Test <i className={"text-xs"}>
+                            El UCT (rango 0 – 16) es una herramienta simple de cuatro preguntas con un límite claramente definido para pacientes totalmente controlados (= 16 puntos) versus enfermedad “mal controlada” y, por lo tanto, es adecuada para el manejo de pacientes en la práctica clínica. El valor de corte de UCT para una enfermedad bien controlada es 12 de 16 puntos posibles.
+                        </i>
                     </div>
                     <div className={"text-primary-dark text-base sm:text-xl"}>
                         <a href={"/files/UCT.pdf"} target={"_blank"} download>
@@ -28,14 +30,14 @@ function MaterialPage(){
                     </div>
                 </div>
 
-                <div className={"bg-white p-4 flex min-w-full rounded-2xl"}>
+                <div className={"bg-white px-4 py-2 flex min-w-full rounded-2xl"}>
                     <div className={"text-primary-dark"}>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" viewBox="0 0 20 20" fill="currentColor">
                             <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                         </svg>
                     </div>
                     <div className={"flex-1 align-middle px-2 text-lg sm:text-xl leading-relaxed"}>
-                        UAS7. Urticarial Activity Score
+                        UAS7. Urticarial Activity Score <i className={"text-xs"}>El UAS7 (rango 0 – 6 puntos) se basa en la evaluación de los signos y síntomas clave de la urticaria (habones y prurito), que son documentados por el paciente. Como la actividad de la urticaria cambia con frecuencia, se mide mejor aconsejando a los pacientes que documenten las puntuaciones de autoevaluación de 24 horas una vez al día durante varios días. El UAS7 suma la puntuación total de 7 días consecutivos, debe utilizarse en la práctica clínica habitual para determinar la actividad de la enfermedad y la respuesta al tratamiento de pacientes con urticaria.</i>
                     </div>
                     <div className={"text-primary-dark text-base sm:text-xl"}>
                         <a href={"/files/UAS7.pdf"} target={"_blank"} download>
@@ -47,7 +49,7 @@ function MaterialPage(){
                     </div>
                 </div>
 
-                <div className={"bg-white p-4 flex min-w-full rounded-2xl"}>
+                <div className={"bg-white px-4 py-2 flex min-w-full rounded-2xl"}>
                     <div className={"text-primary-dark"}>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" viewBox="0 0 20 20" fill="currentColor">
                             <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
@@ -66,14 +68,15 @@ function MaterialPage(){
                     </div>
                 </div>
 
-                <div className={"bg-white p-4 flex min-w-full rounded-2xl"}>
+                <div className={"bg-white px-4 py-2 flex min-w-full rounded-2xl"}>
                     <div className={"text-primary-dark"}>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" viewBox="0 0 20 20" fill="currentColor">
                             <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                         </svg>
                     </div>
                     <div className={"flex-1 align-middle px-2 text-lg sm:text-xl leading-relaxed"}>
-                        AECT. The Angioedema Control Test
+                        AECT. The Angioedema Control Test <i className={"text-xs"}>
+                        AECT (rango 0 – 16 puntos) es una herramienta simple de cuatro preguntas con un límite claramente definido para pacientes totalmente controlados (= 16 puntos) versus enfermedad “mal controlada” y, por lo tanto, es adecuada para el manejo de pacientes en la práctica clínica. El valor de corte de AECT para una enfermedad bien controlada es 12 de 16 puntos posibles.</i>
                     </div>
                     <div className={"text-primary-dark text-base sm:text-xl"}>
                         <a href={"/files/AECT.pdf"} target={"_blank"} download>
@@ -85,14 +88,14 @@ function MaterialPage(){
                     </div>
                 </div>
 
-                <div className={"bg-white p-4 flex min-w-full rounded-2xl"}>
+                <div className={"bg-white px-4 py-2 flex min-w-full rounded-2xl"}>
                     <div className={"text-primary-dark"}>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" viewBox="0 0 20 20" fill="currentColor">
                             <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
                         </svg>
                     </div>
                     <div className={"flex-1 align-middle px-2 text-lg sm:text-xl leading-relaxed"}>
-                        AAS. Angioedema Activity Score
+                        AAS. Angioedema Activity Score <i className={"text-xs"}>El AAS (rango 0 – 6 puntos) se basa en la evaluación del angioedema documentado por el paciente. Como la actividad de la urticaria cambia con frecuencia, se mide mejor aconsejando a los pacientes que documenten las puntuaciones de autoevaluación de 24 horas una vez al día durante varios días. El AAS7 suma la puntuación total de 7 días consecutivos, debe utilizarse en la práctica clínica habitual para determinar la actividad de la enfermedad y la respuesta al tratamiento de pacientes con angioedema.</i>
                     </div>
                     <div className={"text-primary-dark text-base sm:text-xl"}>
                         <a href={"/files/AAS.pdf"} target={"_blank"} download>
@@ -104,7 +107,7 @@ function MaterialPage(){
                     </div>
                 </div>
 
-                <div className={"bg-white p-4 flex min-w-full rounded-2xl"}>
+                <div className={"bg-white px-4 py-2 flex min-w-full rounded-2xl"}>
                     <div className={"text-primary-dark"}>
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" viewBox="0 0 20 20" fill="currentColor">
                             <path fillRule="evenodd" d="M4 4a2 2 0 012-2h4.586A2 2 0 0112 2.586L15.414 6A2 2 0 0116 7.414V16a2 2 0 01-2 2H6a2 2 0 01-2-2V4zm2 6a1 1 0 011-1h6a1 1 0 110 2H7a1 1 0 01-1-1zm1 3a1 1 0 100 2h6a1 1 0 100-2H7z" clipRule="evenodd" />
@@ -122,7 +125,6 @@ function MaterialPage(){
                         </a>
                     </div>
                 </div>
-
 
             </div>
         </div>

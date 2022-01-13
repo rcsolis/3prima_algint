@@ -27,7 +27,7 @@ function UrticariaAgudaDiagnosticosLesionesModalPage(){
                 </button>
             </div>
             <div className={"text-center mb-10"}>
-                <h1 className={"font-bold text-lg sm:text-xl"}>Asociación con otras lesiones</h1>
+                <h1 className={"font-bold text-lg sm:text-xl"}>Dermatitis atópica</h1>
             </div>
             <div className={"h-5/6"}>
                 <div className="w-full h-full carousel">

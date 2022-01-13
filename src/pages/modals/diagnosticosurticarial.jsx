@@ -23,12 +23,12 @@ function UrticariaAgudaDiagnosticosUrticarialModalPage(){
                 </button>
             </div>
             <div className={"text-center mb-10"}>
-                <h1 className={"font-bold text-lg sm:text-xl"}>Dermatitis urticarial</h1>
+                <h1 className={"font-bold text-lg sm:text-xl"}>Urticaria vasculítica</h1>
             </div>
             <div className={"mx-auto"}>
                 <ImageCardModalComponent imageName={Image1} imageName2={Image1s2}>
                     <div className={"text-center font-bold"}>
-                        <p>Dermatitis urticarial</p>
+                        <p>Urticaria vasculítica</p>
                     </div>
                 </ImageCardModalComponent>
             </div>
