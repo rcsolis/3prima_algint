@@ -56,15 +56,15 @@ function UrticariaCronicaInducibleAbordajePage(){
                 <h2>Manejo por Especialista</h2>
             </div>
             <div className={"text-justify px-5 py-2"}>
-                <ul className={"list-decimal space-y-2 list-inside"}>
-                    <li>Manejo controlador ó mantenimiento
+                <ol className={"list-decimal space-y-2 list-inside"} start={3}>
+                    <li>Manejo controlador/mantenimiento (se agrega al manejo sintomático):
                         <p>
                             - Omalizumab 300 mg cada 4 semanas (Valorar respuesta 4 – 6 meses de utilización)<br/>
                             - ó Ciclosporina 2-3 mg/kg/día (Vigilar efectos adversos)<br/>
                             - ó valorar uso de otro inmunosupresor (Por especialista)
                         </p>
                     </li>
-                </ul>
+                </ol>
             </div>
             <div className={"text-lg sm:text-xl mx-5 my-2 text-secondary font-bold"}>
                 <h3>Criterios para Referir</h3>
